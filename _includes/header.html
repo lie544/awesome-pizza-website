@@ -3,7 +3,7 @@
 <head>
     <title>{{ site.title }} | {{ page.title }}</title>
     <link href='https://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/styles.css" />
 </head>
 <body>
     <div class="container">
@@ -11,12 +11,12 @@
             <h1>Awesome Pizza</h1>
             <nav>
                 <ul class="nav">
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/menu.html">Menu</a></li>
-                    <li><a href="/location.html">Location</a></li>
-                    <li><a href="/about.html">About</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
-                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+                    <li><a href="{{ site.baseurl }}/menu.html">Menu</a></li>
+                    <li><a href="{{ site.baseurl }}/location.html">Location</a></li>
+                    <li><a href="{{ site.baseurl }}/about.html">About</a></li>
+                    <li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
+                    <li><a href="{{ site.baseurl }}/blog.html">Blog</a></li>
                 </ul>
             </nav>
         </header>
