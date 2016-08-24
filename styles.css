@@ -36,7 +36,7 @@ ul.nav li {
 ul.nav a:link, ul.nav a:visited {
     display: block;
     /* Make this smaller */
-    width: 125px;
+    width: 110px;
     color: white;
     background-color: #aa0000;
     padding: 3px;
