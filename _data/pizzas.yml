@@ -1,0 +1,12 @@
+- name: Cheese
+  price: $10
+  calories: 210
+  rating: '**'
+- name: Pepperoni
+  price: $12
+  calories: 280
+  rating: '****'
+- name: Mushroom
+  price: $11
+  calories: 220
+  rating: '***'

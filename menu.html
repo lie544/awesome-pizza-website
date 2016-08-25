@@ -5,30 +5,18 @@ title: Menu
 <h2>Menu</h2>
 <table>
     <tr>
-        <th>Product</th>
+        <th>Toppings</th>
         <th>Price</th>
-        <th>Protein</th>
-        <th>Spicy Rating</th>
+        <th>Calories</th>
+        <th>Rating</th>
     </tr>
+    {% for pizza in site.data.pizzas %}
     <tr>
-        <td>Original</td>
-        <td>$10</td><td>10 g</td>
-        <td>*</td></tr>
-    <tr>
-        <td>Teriyaki</td>
-        <td>$12</td>
-        <td>9 g</td>
-        <td>*</td></tr>
-    <tr>
-        <td>Pepper</td>
-        <td>$11</td>
-        <td>10 g</td>
-        <td>***</td>
+        <td>{{ pizza.name }}</td>
+        <td>{{ pizza.price }}</td>
+        <td>{{ pizza.calories }}</td>
+        <td>{{ pizza.rating }}</td>
     </tr>
-    <tr>
-        <td>BBQ</td>
-        <td>$14</td>
-        <td>9 g</td>
-        <td>**</td>
-    </tr>
+    {% endfor %}
+
 </table>
