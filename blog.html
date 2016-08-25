@@ -6,5 +6,6 @@ title: Blog
 
 {% for post in site.posts %}
 <h2><a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a></h2>
-<p>{{ post.date | date: "%b %d, %Y" }}</p>
+<h3>{{ post.date | date: "%b %d, %Y" }}</h3>
+<p>{{ post.excerpt }} ...</p>
 {% endfor %}
